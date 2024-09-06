@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Formulário para ingressar como dev na IBM</title>
+  </head>
+  <body>
+    <h1>Formulário de Cadastro IBM</h1>
+    <!-- Formularios -->
+    <form action="">
+      <label for="nome">Nome:</label>
+      <input
+        type="text"
+        name="nome"
+        placeholder="Nome"
+        id="nome"
+        maxlength="50"
+      />
+      <br />
+      <br />
+
+      <label for="email">Email:</label>
+      <input
+        type="email"
+        name="email"
+        placeholder="Email"
+        id="email"
+        maxlength="50"
+      />
+      <br />
+      <br />
+
+      <label for="password">Password:</label>
+      <input
+        type="password"
+        name="password"
+        placeholder="Password"
+        id="password"
+        maxlength="50"
+      />
+      <br />
+      <br />
+
+      <label for="tell">Phone:</label>
+      <input
+        type="tel"
+        name="tell"
+        placeholder="Phone"
+        id="tell"
+        maxlength="50"
+      />
+      <br />
+      <br />
+
+      <p>Sexo:</p>
+      <input type="radio" name="sexo" value="masculino" id="masculino" />
+      <label for="masculino">Masculino</label>
+
+      <input type="radio" name="sexo" value="feminino" id="feminino" />
+      <label for="feminino">Feminino</label>
+
+      <p>Linguagens aprendidas</p>
+      <input type="checkbox" name="linguagens" value="html" id="html" />
+      <label for="html">HTML</label>
+
+      <input type="checkbox" name="linguagens" value="css" id="css" />
+      <label for="css">CSS</label>
+
+      <input type="checkbox" name="linguagens" value="js" id="js" />
+      <label for="js">Javascript</label>
+
+      <input type="checkbox" name="linguagens" value="java" id="java" />
+      <label for="js">Java</label>
+
+      <input type="checkbox" name="linguagens" value="sql" id="sql" />
+      <label for="js">SQL</label>
+      <br />
+      <br />
+
+      <!-- Select -->
+      <label for="regiao">De onde trabalhar?</label>
+      <select name="regiao" id="regiao">
+        <option value="norte">Norte</option>
+        <option value="centro-oeste">Centro-Oeste</option>
+        <option value="nordeste">Nordeste</option>
+        <option value="sul">Sul</option>
+        <option value="sudeste">Sudeste</option>
+        <option value="homeoffice">Home-Office</option>
+      </select>
+      <br />
+      <br />
+
+      <!-- Text Area -->
+      <label for="mensagem"><p>Mensagem ao recrutador:</p></label>
+      <textarea
+        name="mensagem"
+        id="mensagem"
+        cols="30"
+        rows="5"
+        placeholder="Se não for home office eu não quero."
+      ></textarea>
+      <br />
+      <br />
+
+      <!-- Botoes -->
+      <input type="submit" value="Enviar" />
+      <button>Enviar</button>
+    </form>
+  </body>
+</html>
