@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Display Flex</title>
+    <style>
+      .flex-container {
+        display: flex;
+        justify-content: space-around;
+      }
+
+      #item1 {
+        background-color: black;
+        width: 80%;
+        height: 100px;
+        border: 2px solid red;
+        border-radius: 30px;
+        display: flex;
+        justify-content: space-between;
+      }
+
+      h1 {
+        color: white;
+      }
+
+      .circulo {
+      background-color: black;
+      width: 100px;
+      height: 100px;
+      margin: 10px;
+      border-radius: 20px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="flex-container">
+      <div class="item" id="item1">
+        <h1>Item 1</h1>
+        <h1>Item 2</h1>
+        <h1>Item 3</h1>
+      </div>
+    </div>
+    <div class="circulo"></div>
+  </body>
+</html>

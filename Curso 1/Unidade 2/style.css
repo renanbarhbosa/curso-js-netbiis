@@ -1,0 +1,19 @@
+h1 {
+    /* Definindo cores pelo nome */
+    color: red;
+}
+
+#subtitulo {
+    /* Definindo cores pelo rgb */
+    color: rgb(rgb(250, 250, 250), green, blue);
+}
+
+.amarelo {
+    /* Definindo cores pelo codigo hexadecimal */
+    color: #000;
+}
+
+#area-principal {
+    /* Definindo cores pelo rgba */
+    background-color: rgba(146, 85, 11, 10);
+}

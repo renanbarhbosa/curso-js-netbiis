@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <script>
+      const aluno = {
+        matricula: 100,
+        nome: "João",
+        idade: 20,
+        endereco: "Rua dos Guanabaras",
+        nota: 10,
+        sexo: "masculino",
+      };
+
+      console.log(typeof aluno);
+
+      const nome = prompt("Digite seu nome");
+      const idade = prompt("Digite sua idade");
+      const email = prompt("Digite seu email");
+      const telefone = prompt("Digite seu telefone");
+
+      const aluno2 = {
+        nome: nome,
+        idade: idade,
+        email: email,
+        telefone: telefone,
+      };
+
+      console.log(aluno2);
+      console.log(typeof aluno2);
+    </script>
+  </body>
+</html>

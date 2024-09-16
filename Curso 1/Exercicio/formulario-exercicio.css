@@ -1,0 +1,113 @@
+/* Body geral */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #0a1128; 
+    color: #fff; 
+    margin: 0;
+    padding: 0;
+  }
+  
+  h1 {
+    text-align: center;
+    color: #ffa500; 
+  }
+  
+  form {
+    max-width: 700px;
+    margin: 0 auto;
+    background-color: #fafafa; 
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 0 0 5px 5px #ffa500;
+  }
+  
+  label {
+    font-weight: bold;
+    color: #0a1128; 
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  input[type="text"],
+  input[type="email"],
+  input[type="password"],
+  input[type="tel"],
+  select,
+  textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 2px solid #c9c9c9;
+    border-radius: 10px;
+    box-sizing: border-box;
+  }
+  
+  input[type="radio"],
+  input[type="checkbox"] {
+    margin-right: 10px;
+  }
+  
+  .sexo-options {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+    gap: 10px; 
+  }
+  
+  .sexo-option {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start; 
+  }
+  
+  input[type="radio"] {
+    margin-left: 10px; 
+  }
+  
+  input[type="checkbox"] {
+    margin-right: 10px;
+  }
+  
+  label[for="html"],
+  label[for="css"],
+  label[for="js"],
+  label[for="java"],
+  label[for="sql"] {
+    color: #007f5f; 
+    font-weight: normal;
+  }
+  
+  .linguagens-aprendidas {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+    gap: 10px; 
+  }
+  
+  .linguagens-aprendidas div {
+    display: flex;
+    align-items: center;
+  }
+  
+  .linguagens-aprendidas input[type="checkbox"] {
+    margin-right: 10px;
+  }
+  
+  .linguagens-aprendidas label {
+    margin: 0;
+  }
+  
+  @media (max-width: 768px) {
+    form {
+      padding: 15px;
+    }
+  
+    input[type="text"],
+    input[type="email"],
+    input[type="password"],
+    input[type="tel"],
+    select,
+    textarea {
+      padding: 12px;
+      margin-bottom: 15px;
+    }
+  }
+  

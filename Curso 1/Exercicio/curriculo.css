@@ -1,0 +1,108 @@
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  background-color: #f4f4f4;
+  color: #333;
+  margin: 0;
+  padding: 0;
+}
+
+#curriculo-foto {
+  text-align: center;
+  background-color: #ffffff;
+  padding: 20px;
+  margin-bottom: 20px;
+  border-bottom: 2px solid #1e90ff;
+}
+
+#curriculo-foto p {
+  font-style: italic;
+  color: #777;
+}
+
+#curriculo-foto img {
+  border-radius: 100%;
+  border: 3px solid #1e90ff;
+}
+
+#informacoes-perfil {
+  max-width: 80%;
+  margin: auto;
+  background-color: #fafafa;
+  padding: 20px;
+  box-shadow: 0 0 35px rgb(202, 117, 38);
+}
+
+#informacoes-perfil h1 {
+  font-size: 1.8em;
+  color: #1e90ff;
+  border-bottom: 2px solid #1e90ff;
+  padding-bottom: 5px;
+}
+
+#informacoes-perfil p {
+  color: #555;
+  text-align: justify;
+}
+
+#informacoes-perfil h2 {
+  font-size: 1.5em;
+  color: #1e90ff;
+  margin-top: 20px;
+}
+
+#informacoes-perfil ul.habilidades {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 30px;
+  padding: 20px;
+  list-style-type: none;
+  color: #555;
+}
+
+.habilidade-java {
+  background-color: #ff7f50;
+  padding: 10px;
+  border-radius: 30px;
+  color: #fafafa;
+  text-align: center;
+  font-weight: bold;
+}
+
+.habilidade-javascript {
+  background-color: #ff7f50;
+  padding: 10px;
+  border-radius: 30px;
+  color: #fafafa;
+  text-align: center;
+  font-weight: bold;
+}
+
+.habilidade-html {
+  background-color: #ff7f50;
+  padding: 10px;
+  border-radius: 30px;
+  color: #fafafa;
+  text-align: center;
+  font-weight: bold;
+}
+
+.habilidade-css {
+  background-color: #ff7f50;
+  padding: 10px;
+  border-radius: 30px;
+  color: #fafafa;
+  text-align: center;
+  font-weight: bold;
+}
+
+footer {
+  text-align: center;
+  padding: 20px;
+  font-size: 0.9em;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  background-color: #eee;
+  margin-top: 20px;
+  border: 2px solid #ddd;
+  border-radius: 10px;
+}

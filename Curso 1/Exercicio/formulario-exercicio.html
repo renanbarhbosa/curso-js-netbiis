@@ -4,10 +4,11 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Formulário para ingressar como dev na IBM</title>
+    <link rel="stylesheet" href="formulario-exercicio.css" />
   </head>
   <body>
     <h1>Formulário de Cadastro IBM</h1>
-    <!-- Formularios -->
+    =
     <form action="">
       <label for="nome">Nome:</label>
       <input
@@ -54,27 +55,42 @@
       <br />
 
       <p>Sexo:</p>
-      <input type="radio" name="sexo" value="masculino" id="masculino" />
-      <label for="masculino">Masculino</label>
-
-      <input type="radio" name="sexo" value="feminino" id="feminino" />
-      <label for="feminino">Feminino</label>
+      <div class="sexo-options">
+        <div class="sexo-option">
+          <input type="radio" name="sexo" value="masculino" id="masculino" />
+          <label for="masculino">Masculino</label>
+        </div>
+        <div class="sexo-option">
+          <input type="radio" name="sexo" value="feminino" id="feminino" />
+          <label for="feminino">Feminino</label>
+        </div>
+      </div>
+      <br />
+      <br />
 
       <p>Linguagens aprendidas</p>
-      <input type="checkbox" name="linguagens" value="html" id="html" />
-      <label for="html">HTML</label>
-
-      <input type="checkbox" name="linguagens" value="css" id="css" />
-      <label for="css">CSS</label>
-
-      <input type="checkbox" name="linguagens" value="js" id="js" />
-      <label for="js">Javascript</label>
-
-      <input type="checkbox" name="linguagens" value="java" id="java" />
-      <label for="js">Java</label>
-
-      <input type="checkbox" name="linguagens" value="sql" id="sql" />
-      <label for="js">SQL</label>
+      <div class="linguagens-aprendidas">
+        <div>
+          <input type="checkbox" name="linguagens" value="html" id="html" />
+          <label for="html">HTML</label>
+        </div>
+        <div>
+          <input type="checkbox" name="linguagens" value="css" id="css" />
+          <label for="css">CSS</label>
+        </div>
+        <div>
+          <input type="checkbox" name="linguagens" value="js" id="js" />
+          <label for="js">JavaScript</label>
+        </div>
+        <div>
+          <input type="checkbox" name="linguagens" value="java" id="java" />
+          <label for="java">Java</label>
+        </div>
+        <div>
+          <input type="checkbox" name="linguagens" value="sql" id="sql" />
+          <label for="sql">SQL</label>
+        </div>
+      </div>
       <br />
       <br />
 

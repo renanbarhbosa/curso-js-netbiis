@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <script>
+      const precoProduto = prompt("Insira o preço do produto");
+
+      const compraComDescontoOuParcelado = prompt(
+        "Deseja pagar com desconto ou parcelado?"
+      );
+
+      if (compraComDescontoOuParcelado === "desconto") {
+        const descontoAVista = precoProduto * 0.9; 
+        console.log(
+          `Adquira este produto com 10% de desconto: Preço final = R$${descontoAVista}`
+        );
+      }
+
+      if (compraComDescontoOuParcelado === "parcelado") {
+        let numeroDeParcelas = prompt("Parcelar em quantas vezes?");
+        if (numeroDeParcelas == 2) {
+          console.log(
+            "Pague em duas vezes: Preço final = R$" + precoProduto / 2
+          );
+        } else if (numeroDeParcelas == 3) {
+          console.log(
+            "Pague em três vezes: Preço final = R$" +
+              Math.round(precoProduto / 3).toFixed(2)
+          );
+        } else {
+          console.log(
+            "Desculpe, não existe este número de parcelas para este produto. Tente novamente"
+          );
+        }
+      }
+    </script>
+  </body>
+</html>
