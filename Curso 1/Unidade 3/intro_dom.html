@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM</title>
+</head>
+<body>
+    <h1 id="titulo">Nosso título</h1>
+    <p class="paragrafo">Nosso parágrafo</p>
+    <p class="paragrafo">Nosso parágrafo</p>
+    <input type="checkbox" name="nome" placeholder="Digite seu nome">
+
+    <script>
+        let titulo = document.getElementById('titulo');
+        console.log(titulo.innerText);
+        let paragrafos = document.getElementsByClassName('paragrafo');
+        let paragrafosTag = document.getElementsByTagName('p');
+        let inputs = document.getElementsByName('nome');
+        let querySelectorTitulo = document.querySelector('#titulo');
+        let querySelectorParagrafo = document.querySelectorAll('.paragrafo');
+        console.log(querySelectorTitulo);
+        console.log(querySelectorParagrafo);
+        console.log(titulo.innerHTML);
+        console.log(paragrafos[0].innerText);
+        console.log(inputs[0].placeholder);
+        console.log(inputs[0].name);
+        console.log(titulo.innerText = "Novo título");
+        console.log(paragrafos[0].innerText += ": Alterado");
+        console.log(inputs[0].value = 'Valor padrão');
+        console.log(checkbox.checked = true);
+    </script>
+</body>
+</html>
