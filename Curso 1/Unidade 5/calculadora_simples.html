@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Calculadora Switch Case</title>
+  </head>
+  <body>
+    <script>
+      alert("Insira dois números e a operação desejada.");
+
+      const num1 = parseFloat(prompt("Insira o primeiro número."));
+      const num2 = parseFloat(prompt("Insira o segundo número."));
+      const operacao = prompt("Insira a operação a ser feita.");
+      const codigoDesconto = prompt("Digite o código do seu desconto.");
+
+      let desconto;
+
+      if (codigoDesconto === "1") {
+        desconto = 0.9;
+      } else if (codigoDesconto === "2") {
+        desconto = 0.95;
+      } else if (codigoDesconto === "3") {
+        desconto = 1;
+      } else if (codigoDesconto === "4") {
+        desconto = 1.1;
+      } else {
+        desconto = 1;
+      }
+
+      let resultado;
+      switch (operacao) {
+        case "+":
+          resultado = (num1 + num2) * desconto;
+          break;
+        case "-":
+          resultado = (num1 - num2) * desconto;
+          break;
+        case "*":
+          resultado = num1 * num2 * desconto;
+          break;
+        case "/":
+          resultado = (num1 / num2) * desconto;
+          break;
+        default:
+          alert("Operação inválida!");
+          resultado = null;
+      }
+
+      if (resultado !== null) {
+        console.log("Resultado:", resultado);
+      }
+    </script>
+  </body>
+</html>
