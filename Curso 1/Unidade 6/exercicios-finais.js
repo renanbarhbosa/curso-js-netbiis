@@ -40,6 +40,8 @@ let joao = new Aluno('Joao', 10);
 
 let arrAlunos = [renan, victor, patrick, joao];
 
+// MINHA SOLUÇÃO
+
 // for (let el of arrAlunos) {
 //     arrAlunos.forEach((aluno) => {
 //         if (aluno.nota > 7) {
@@ -47,6 +49,8 @@ let arrAlunos = [renan, victor, patrick, joao];
 //         }
 //     })
 // }
+
+// SOLUCAO PARA A PROPOSTA DO EXERCÍCIO
 
 for (let aluno of arrAlunos) {
     for (let key in aluno) {
